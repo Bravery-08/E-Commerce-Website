@@ -1,0 +1,220 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: rgba(232, 104, 24, 0.342);
+}
+
+header {
+    background: linear-gradient(rgba(255, 47, 0, 0.767), rgba(243, 8, 8, 0.342), rgba(232, 104, 24, 0.342));
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex; 
+    gap: 20px;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: rgb(255, 34, 0);
+    text-decoration: underline;
+}
+
+.navbar {
+    margin: 10px;
+    border-radius: 20px;
+    background: rgba(239, 103, 19, 0.342);
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: rgb(255, 34, 0);
+    text-decoration: underline;
+}
+
+.hero {
+    position: relative;
+    background: url('Images/bg.jpeg') no-repeat center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.btn {
+    background: red;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    position: relative;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.btn:hover {
+    background-color : darkred;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5px 10px 50px 10px;
+    gap: 20px;
+}
+
+.product-card {
+    text-align: center;
+    max-width: 250px;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.429);
+    transition: transform 0.3s ease-in-out;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 1);
+}
+
+.product-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.product-card h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.product-card p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ff4500;
+}
+
+footer {
+    text-align: center;
+    background: #333;
+    color: #ddd;
+    padding: 15px 0;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+
+#best-selling {
+    background-color: rgba(239, 147, 60, 0.406);
+    margin: 20px;
+    border-radius: 40px;
+}
+
+#best-selling h1 {
+    display: flex;
+    color: rgb(227, 90, 5);
+    font-size: 40px;
+    font-style: italic;
+    justify-content: center;
+    width: 100%;
+}
+
+#kids-books {
+    background-color: rgba(239, 147, 60, 0.406);
+    margin: 20px;
+    border-radius: 40px;
+}
+
+#kids-books h1 {
+    display: flex;
+    color: rgb(227, 90, 5);
+    font-size: 40px;
+    font-style: italic;
+    justify-content: center;
+    width: 100%;
+}
+
+#mystery-books {
+    background-color: rgba(239, 147, 60, 0.406);
+    margin: 20px;
+    border-radius: 40px;
+}
+
+#mystery-books h1 {
+    display: flex;
+    font-size: 40px;
+    color: rgb(227, 90, 5);
+    font-style: italic;
+    justify-content: center;
+    width: 100%;
+}
+
+#featured-books {
+    background-color: rgba(239, 147, 60, 0.406);
+    margin: 20px;
+    border-radius: 40px;
+}
+
+#featured-books h1 {
+    display: flex;
+    font-size: 40px;
+    color: rgb(227, 90, 5);
+    font-style: italic;
+    justify-content: center;
+    width: 100%;
+}
+
+.explore-btn {
+    display: flex;
+    justify-content: center;
+}

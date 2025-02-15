@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+    <header>
+        <div>
+            <a href="index.html"><img src="Images/logo-removebg-preview.png" alt="logo" class="logo"></a>
+        </div>
+        <div class="nav">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="profile.html">Profile</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="profile-container">
+        <aside class="sidebar">
+            <div class="user-info">
+                <img src="Images/profile-pic.jpg" alt="User Icon" class="user-pic">
+                <h3>Prateek Sahoo</h3>
+            </div>
+            <ul class="menu">
+                <li><a href="#">My Orders</a></li>
+                <li><a href="#">Profile Information</a></li>
+                <li><a href="#">Manage Addresses</a></li>
+                <li><a href="#">Payments</a></li>
+            </ul>
+        </aside>
+
+        <main class="profile-details">
+            <h2>Personal Information <a href="#" class="edit">Edit</a></h2>
+            <div class="info-box">
+                <input type="text" value="Prateek">
+                <input type="text" value="Sahoo">
+            </div>
+            <h2>Your Gender</h2>
+            <label><input type="radio" name="gender" checked> Male</label>
+            <label><input type="radio" name="gender"> Female</label>
+            <h2>Email Address <a href="#" class="edit">Edit</a></h2>
+            <input type="email" value="xyz@gmail.com">
+            <h2>Mobile Number <a href="#" class="edit">Edit</a></h2>
+            <input type="tel" value="1234567890">
+        </main>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Books Haven. All rights reserved.</p>
+    </footer>
+</body>
+</html>
