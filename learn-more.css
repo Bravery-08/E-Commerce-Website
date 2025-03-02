@@ -9,6 +9,7 @@ header {
     padding: 15px 20px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
@@ -43,48 +44,32 @@ header {
     text-decoration: underline;
 }
 
-.product-page {
-    display: flex;
-    gap: 50px;
-    padding: 50px;
+main {
+    max-width: 85%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(239, 103, 19, 0.342);;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
-.image-gallery img {
-    width: 200px;
-    margin-bottom: 10px;
-    display: block;
+section {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
 }
 
-.original {
-    text-decoration: line-through;
-    color: grey;
-    margin-left: 10px;
+h2 {
+    color: rgb(181, 77, 13);
 }
 
-.buy-options {
-    margin-top: 20px;
+p, ul, ol {
+    font-size: 16px;
+    line-height: 1.6;
 }
 
-.buy-options input {
-    width: 80px;
-    padding: 5px;
-    margin-right: 10px;
-}
-
-button {
-    padding: 10px 15px;
-    border: none;
-    cursor: pointer;
-}
-
-.add-to-cart {
-    background-color: #28a745;
-    color: white;
-}
-
-.wishlist {
-    background-color: #ff9800;
-    color: white;
+ul, ol {
+    margin-left: 20px;
 }
 
 footer {

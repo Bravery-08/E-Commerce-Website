@@ -9,6 +9,7 @@ header {
     padding: 15px 20px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
@@ -43,48 +44,48 @@ header {
     text-decoration: underline;
 }
 
-.product-page {
-    display: flex;
-    gap: 50px;
-    padding: 50px;
+main {
+    max-width: 85%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(239, 103, 19, 0.342);
+    border-radius: 8px;
 }
 
-.image-gallery img {
-    width: 200px;
-    margin-bottom: 10px;
-    display: block;
+main h1 {
+    text-align: center;
+    color: #E85C1F;
+    margin-bottom: 20px;
 }
 
-.original {
-    text-decoration: line-through;
-    color: grey;
-    margin-left: 10px;
-}
-
-.buy-options {
+table {
+    width: 100%;
+    border-collapse: collapse;
     margin-top: 20px;
 }
 
-.buy-options input {
-    width: 80px;
-    padding: 5px;
-    margin-right: 10px;
+th, td {
+    padding: 12px;
+    border-bottom: 2px solid #000000;
+    text-align: center;
 }
 
-button {
-    padding: 10px 15px;
-    border: none;
-    cursor: pointer;
-}
-
-.add-to-cart {
-    background-color: #28a745;
+th {
+    background-color: rgba(148, 67, 16, 0.342);
     color: white;
 }
 
-.wishlist {
-    background-color: #ff9800;
-    color: white;
+tr:nth-child(even) {
+    background-color: rgba(197, 88, 20, 0.342);
+}
+
+a {
+    color: #ff0000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 footer {
